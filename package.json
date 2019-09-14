@@ -1,0 +1,34 @@
+{
+  "name": "potato-facts",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:fieldju/potato-facts.git",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.2.0",
+    "@typescript-eslint/parser": "^2.2.0",
+    "eslint": "^6.4.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-flowtype": "^4.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "lerna": "^3.16.4",
+    "prettier": "^1.18.2",
+    "typescript": "^3.6.3"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "lint": "yarn workspaces run lint",
+    "format": "yarn workspaces run format",
+    "pretest": "yarn workspaces run lint",
+    "test": "yarn workspaces run test",
+    "build": "yarn workspaces run build",
+    "clean": "yarn workspaces run clean"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {}
+}

@@ -1,0 +1,30 @@
+{
+  "name": "potato-facts-core",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Justin Field <fieldju@gmail.com>",
+  "homepage": "https://github.com/fieldju/potato-facts#readme",
+  "license": "Apache-2.0",
+  "main": "build/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fieldju/potato-facts.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint 'src/**/*.{ts,tsx}'",
+    "format": "prettier --write --single-quote --print-width=120 --tab-width=2 'src/**/*.{ts,tsx,js,jsx}'",
+    "clean": "rm -fr ./build",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/fieldju/potato-facts/issues"
+  }
+}
