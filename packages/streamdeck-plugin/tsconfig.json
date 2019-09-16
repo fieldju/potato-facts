@@ -4,6 +4,6 @@
       "outDir": "./build"
     },
     "include": [
-      "./src"
+      "./src", "src/domain/StreamDeck.ts", "manifest.ts"
     ]
 }

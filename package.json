@@ -6,6 +6,8 @@
   "repository": "git@github.com:fieldju/potato-facts.git",
   "license": "MIT",
   "devDependencies": {
+    "@types/mkdirp": "^0.5.2",
+    "@types/rimraf": "^2.0.2",
     "@typescript-eslint/eslint-plugin": "^2.2.0",
     "@typescript-eslint/parser": "^2.2.0",
     "eslint": "^6.4.0",
@@ -15,7 +17,10 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.0",
     "lerna": "^3.16.4",
+    "mkdirp": "^0.5.1",
     "prettier": "^1.18.2",
+    "rimraf": "^3.0.0",
+    "ts-node": "^8.3.0",
     "typescript": "^3.6.3"
   },
   "scripts": {
